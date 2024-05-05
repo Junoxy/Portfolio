@@ -18,7 +18,7 @@ const ProjectCard = ({ theme, project, index }) => {
 			}}
 		>
 		<Box sx={{width:{xs:'100%',md:'50%'}, height:{xs:'50%',md:'100%'}, display:'flex', flexDirection:'column', justifyContent:'space-between', alignItems:'center'}}>
-			<Box sx={{width:{xs:'90%',md:'70%'}, height:{xs:'80%',md:'100%'}, display:'flex', flexDirection:'column', alignItems:'center'}}>
+			<Box sx={{width:{xs:'90%',md:'80%'}, height:{xs:'80%',md:'100%'}, display:'flex', flexDirection:'column', alignItems:'center'}}>
 			<Typography p={{xs:1 ,md:2}} sx={{textAlign:'center',fontSize:'1.5rem', color:theme.text}}>{project.name}</Typography>
 			<Typography px={4} sx={{textAlign:'center', overflowY:'auto', color:theme.text, fontSize:'1rem'}}>{project.text}</Typography>
 			<IconButton onClick={() => goToDemo(project.demo)} sx={{color:theme.text}}><DevicesIcon sx={{width:'35px', height:'35px'}}/></IconButton>

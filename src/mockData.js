@@ -4,12 +4,12 @@ export const projects = [
         name: 'Klarna Checkout',
         text: 'I have implemented a payment solution using JavaScript, Node.js, and Express, integrating the Klarna API for seamless transactions. And Basic Auth for security. Leveraging Git for version control, this project offers merchants a reliable platform for managing payments, while providing customers with a smooth checkout experience. It is a flexible solution that can be easily integrated into various e-commerce websites.',
         tech: 'JavaScript | NodeJs | Express | BasicAuth | Klarna API | Git',
-        img: 'src/assets/flagapp.png'
+        img: 'src/assets/klarna.png'
     },
     {
         demo: 'https://spotify-clone-eight-smoky.vercel.app/',
         name: 'Spotify Clone',
-        text: 'Introducing my Spotify clone, built with JavaScript, React, and the Spotify API. With Basic Auth ensuring secure login, users can access their playlists, play, pause, and skip songs seamlessly. This project offers a familiar interface and smooth navigation. CSS ensures a sleek design, while Git manages version control for collaborative development.',
+        text: 'Here is my Spotify clone, a dynamic music streaming platform powered by JavaScript, React, and the Spotify API. With Basic Auth integration, users enjoy secure access to their playlists, coupled with seamless playback controls. The project boasts a sleek design, courtesy of CSS and Material-UI, ensuring an intuitive user experience. Plus, with Git overseeing version control, collaboration is smooth, enabling ongoing enhancements to the platforms features and functionality.',
         tech: 'Javascript | React | Spotify API | Basic Auth | CSS | Git | MUI',
         img: 'src/assets/spotifyClone.png'
     },
@@ -26,5 +26,12 @@ export const projects = [
         text: 'I have created a dynamic web application using React, HTML, and CSS, powered by the REST Countries API. This application allows users to explore countries worldwide, accessing information such as currencies, populations, and capitals. With version control managed through Git, this project emphasizes simplicity and usability, offering an intuitive interface for users to navigate and learn about different countries.',
         tech: 'React | Git | Rest Countries Api | Html | Css',
         img: 'src/assets/flagapp.png'
+    },
+    {
+        demo: (null),
+        name: 'Automatic Irrigation', 
+        text: 'I am currently developing an auto-irrigation system using the MERN stack. This upcoming solution lets you control your gardens hydration for optimal plant growth. With detailed time series data and customizable settings, you will ensure your garden gets just the right amount of water. Plus, enjoy manual watering options and switch between sensor profiles for different areas of your garden. Stay tuned for updates on this convenient and efficient gardening tool!',
+        tech: 'React | Git | IoT | Html | Css | Botany Api | NodeJs | Express | MongoDB',
+        img: 'src/assets/aroid.webp'
     }
 ]

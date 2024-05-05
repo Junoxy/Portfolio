@@ -17,7 +17,7 @@ const MobileNavMenu = ({theme,open, setOpen}) => {
         <Slide  direction="left" in={open} mountOnEnter unmountOnExit>
             <Box sx={{ width: '100vw', height: '130vh', background: `linear-gradient(to bottom, ${theme.accent}, ${theme.secondary})`, position: 'absolute', top: '0', zIndex: 100 }}>
                 <Box sx={{display:'flex', justifyContent:'flex-end'}}>
-                <IconButton sx={{ color: theme.text, p:'20px' }} onClick={() => setOpen(!open)}>
+                <IconButton sx={{ color: '#ffffff', p:'20px' }} onClick={() => setOpen(!open)}>
                     <KeyboardArrowDownIcon sx={{ width: '46px', height: '46px' }} />
                 </IconButton>
                 </Box>
@@ -30,7 +30,7 @@ const MobileNavMenu = ({theme,open, setOpen}) => {
                             flexDirection: 'column',
                             gap: '40px',
                             borderColor: theme.text,
-                            color: theme.text
+                            color: '#ffffff'
                         }}
                     >
                         <button style={{ fontSize: '36px' }} className='nav-button-mobile' onClick={() => { scrollToSection('home') }}>Home</button>

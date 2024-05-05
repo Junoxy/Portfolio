@@ -35,22 +35,19 @@ const AboutPage = ({ theme }) => {
 				<Box sx={{ width: '90%', height: '100%'  }}>
 					<Typography sx={{ fontSize: '36px', color: theme.accent }}>Who Am I?</Typography>
 					<Typography sx={{ color: theme.text, fontSize: '18px', fontWeight: '300' }}>
-						Hi! My name is Juno and i am a driven individual here on this beautiful earth with a passion for
-						realizing the power of my imagination, i believe that if i can imagine it, i can believe it, i
-						can achieve it. Hi! My name is Juno and i am a driven individual here on this beautiful earth
-						with a passion for realizing the power of my imagination, i believe that if i can imagine it, i
-						can believe it, i can achieve it Hi! My name is Juno and i am a driven individual here on this
-						beautiful earth with a passion for realizing the power of my imagination, i believe that if i
-						can imagine it, i can believe it, i can achieve it
+					From my early years, technology has always fascinated me. Alongside my brother, I delved into creating Minecraft servers and tinkering with computer hardware, even though it often left us scratching our heads! While my initial interest in technology simmered, I followed my passion for culinary arts, spending five years as a self-taught chef.
+
+Now, with a rekindled enthusiasm for technology, I'm fully committed to mastering JavaScript, React, HTML, and CSS for web development. Drawing from my culinary background, I bring a problem-solving mindset and adaptability to my coding journey. I firmly believe in the power of continuous effort and resilience, traits honed during my culinary career.
+
+As I transition from the kitchen to coding, I'm eager to embrace each challenge as an opportunity for growth. I'm excited to leverage my diverse experiences and unwavering determination to contribute meaningfully to the world of technology. Let's explore how my unique blend of curiosity, creativity, and persistence can make a difference in your projects!
 					</Typography>
 				</Box>
 				<Box sx={{ width: '90%', height: '100%' }}>
 					<Typography sx={{ fontSize: '36px', color: theme.accent }}>My Goals</Typography>
 					<Typography sx={{ color: theme.text, fontSize: '18px', fontWeight: '300' }}>
-						Hi! My name is Juno and i am a driven individual here on this beautiful earth with a passion for
-						realizing the power of my imagination, i believe that if i can imagine it, i can believe it, i
-						can achieve it. Hi! My name is Juno and i am a driven individual here on this beautiful earth
-						with a
+					As I journey through life, I often daydream about my ideal future. In my mind, I imagine living in a spacious greenhouse, where I can work remotely and care for my plants. I see myself enjoying the simple pleasures of cooking with fresh ingredients from my garden and taking things at a relaxed pace^^
+
+					While this dream is still in the making, I'm determined to create a fulfilling and peaceful life. Until 						then, let's support each other as we work towards our goals and aspirations. Together, we can navigate 						life's journey and help each other reach our desired destinations!
 					</Typography>
 				</Box>
 			</Box>
