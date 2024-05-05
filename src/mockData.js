@@ -1,6 +1,6 @@
 export const projects = [
     {
-        demo: 'ds',
+        demo: 'https://klarna-test.vercel.app/',
         name: 'Klarna Checkout',
         text: 'I have implemented a payment solution using JavaScript, Node.js, and Express, integrating the Klarna API for seamless transactions. And Basic Auth for security. Leveraging Git for version control, this project offers merchants a reliable platform for managing payments, while providing customers with a smooth checkout experience. It is a flexible solution that can be easily integrated into various e-commerce websites.',
         tech: 'JavaScript | NodeJs | Express | BasicAuth | Klarna API | Git',
