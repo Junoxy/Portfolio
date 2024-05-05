@@ -1,0 +1,15 @@
+.nav-button {
+    all:unset;
+    color: inherit;
+    padding: 5px 10px;
+    transition: 0.2s ease-in-out;
+    font-weight: 500;
+}
+
+.nav-button:hover {
+    transform: scale(1.1);
+    border-bottom: 2px solid;
+    border-color: inherit;
+    cursor: pointer;
+}
+

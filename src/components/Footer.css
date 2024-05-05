@@ -1,0 +1,12 @@
+.nav-button-footer {
+    all:unset;
+    transition: 0.3s ease;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.nav-button-footer:hover {
+    transform: translateX(20%);
+    cursor: pointer;
+}
+
