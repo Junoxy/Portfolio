@@ -27,7 +27,7 @@ const Footer = ({ theme }) => {
 					<Box sx={{ display: 'flex', gap: '5px', flexDirection: { xs: 'row', md: 'column' } }}>
 						<a style={{ all: 'unset' }} href="https://github.com/Junoxy">
 							<IconButton>
-								<Avatar src="src/assets/github.png" />
+								<Avatar src="public/github.png" />
 							</IconButton>
 						</a>
 						<a
@@ -35,7 +35,7 @@ const Footer = ({ theme }) => {
 							href="https://www.linkedin.com/in/juno-ogay-45a2512ba/?locale=en_US"
 						>
 							<IconButton>
-								<Avatar src="src/assets/linkedin.png" />
+								<Avatar src="public/linkedin.png" />
 							</IconButton>
 						</a>
 					</Box>

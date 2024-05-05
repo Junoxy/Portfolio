@@ -77,7 +77,7 @@ As I transition from the kitchen to coding, I'm eager to embrace each challenge 
 							transition: 'transform 1s ease',
 							transitionDelay: '0.1s'
 						}}
-						src="src\assets\CSS3_logo.svg.png"
+						src="public\CSS3_logo.svg.png"
 					/>
 					<Avatar
 						variant="square"
@@ -88,7 +88,7 @@ As I transition from the kitchen to coding, I'm eager to embrace each challenge 
 							transition: 'transform 1s ease',
 							transitionDelay: '0.2s'
 						}}
-						src="src\assets\HTML5_Badge.svg.png"
+						src="public\HTML5_Badge.svg.png"
 					/>
 					<Avatar
 						variant="square"
@@ -99,7 +99,7 @@ As I transition from the kitchen to coding, I'm eager to embrace each challenge 
 							transition: 'transform 1s ease',
 							transitionDelay: '0.3s'
 						}}
-						src="src\assets\Git_icon.svg.png"
+						src="public\Git_icon.svg.png"
 					/>
 					<Avatar
 						variant="square"
@@ -110,7 +110,7 @@ As I transition from the kitchen to coding, I'm eager to embrace each challenge 
 							transition: 'transform 1s ease',
 							transitionDelay: '0.4s'
 						}}
-						src="src\assets\express.webp"
+						src="public\express.webp"
 					/>
 					<Avatar
 						variant="square"
@@ -121,7 +121,7 @@ As I transition from the kitchen to coding, I'm eager to embrace each challenge 
 							transition: 'transform 1s ease',
 							transitionDelay: '0.5s'
 						}}
-						src="src\assets\js.png"
+						src="public\js.png"
 					/>
 					<Avatar
 						variant="square"
@@ -132,7 +132,7 @@ As I transition from the kitchen to coding, I'm eager to embrace each challenge 
 							transition: 'transform 1s ease',
 							transitionDelay: '0.6s'
 						}}
-						src="src\assets\node-js.svg"
+						src="public\node-js.svg"
 					/>
 					<Avatar
 						variant="square"
@@ -143,7 +143,7 @@ As I transition from the kitchen to coding, I'm eager to embrace each challenge 
 							transition: 'transform 1s ease',
 							transitionDelay: '0.7s'
 						}}
-						src="src\assets\mongodb.png"
+						src="public\mongodb.png"
 					/>
 					<Avatar
 						variant="square"
@@ -154,7 +154,7 @@ As I transition from the kitchen to coding, I'm eager to embrace each challenge 
 							transition: 'transform 1s ease',
 							transitionDelay: '0.8s'
 						}}
-						src="src\assets\react.png"
+						src="public\react.png"
 					/>
 				</Box>
 				<Divider sx={{ width: '70%', bgcolor: theme.primary }} />
