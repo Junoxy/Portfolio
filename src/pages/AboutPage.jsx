@@ -77,7 +77,7 @@ As I transition from the kitchen to coding, I'm eager to embrace each challenge 
 							transition: 'transform 1s ease',
 							transitionDelay: '0.1s'
 						}}
-						src="public\CSS3_logo.svg.png"
+						src="/CSS3_logo.svg.png"
 					/>
 					<Avatar
 						variant="square"
@@ -88,7 +88,7 @@ As I transition from the kitchen to coding, I'm eager to embrace each challenge 
 							transition: 'transform 1s ease',
 							transitionDelay: '0.2s'
 						}}
-						src="public\HTML5_Badge.svg.png"
+						src="/HTML5_Badge.svg.png"
 					/>
 					<Avatar
 						variant="square"
@@ -99,7 +99,7 @@ As I transition from the kitchen to coding, I'm eager to embrace each challenge 
 							transition: 'transform 1s ease',
 							transitionDelay: '0.3s'
 						}}
-						src="public\Git_icon.svg.png"
+						src="/Git_icon.svg.png"
 					/>
 					<Avatar
 						variant="square"
@@ -110,7 +110,7 @@ As I transition from the kitchen to coding, I'm eager to embrace each challenge 
 							transition: 'transform 1s ease',
 							transitionDelay: '0.4s'
 						}}
-						src="public\express.webp"
+						src="/express.webp"
 					/>
 					<Avatar
 						variant="square"
@@ -121,7 +121,7 @@ As I transition from the kitchen to coding, I'm eager to embrace each challenge 
 							transition: 'transform 1s ease',
 							transitionDelay: '0.5s'
 						}}
-						src="public\js.png"
+						src="/js.png"
 					/>
 					<Avatar
 						variant="square"
@@ -132,7 +132,7 @@ As I transition from the kitchen to coding, I'm eager to embrace each challenge 
 							transition: 'transform 1s ease',
 							transitionDelay: '0.6s'
 						}}
-						src="public\node-js.svg"
+						src="/node-js.svg"
 					/>
 					<Avatar
 						variant="square"
@@ -143,7 +143,7 @@ As I transition from the kitchen to coding, I'm eager to embrace each challenge 
 							transition: 'transform 1s ease',
 							transitionDelay: '0.7s'
 						}}
-						src="public\mongodb.png"
+						src="/mongodb.png"
 					/>
 					<Avatar
 						variant="square"
@@ -154,7 +154,7 @@ As I transition from the kitchen to coding, I'm eager to embrace each challenge 
 							transition: 'transform 1s ease',
 							transitionDelay: '0.8s'
 						}}
-						src="public\react.png"
+						src="/react.png"
 					/>
 				</Box>
 				<Divider sx={{ width: '70%', bgcolor: theme.primary }} />
