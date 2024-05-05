@@ -42,7 +42,7 @@ const MobileNavMenu = ({theme,open, setOpen}) => {
 					<Box sx={{ display: 'flex', gap: '20px', flexDirection: { xs: 'row', md: 'column' } }}>
 						<a style={{ all: 'unset' }} href="https://github.com/Junoxy">
 							<IconButton sx={{'&:hover':{transform:'scale(1.3)'}}}>
-								<Avatar sx={{width:'40px', height:'40px'}} src="public/github.png" />
+								<Avatar sx={{width:'40px', height:'40px'}} src="/github.png" />
 							</IconButton>
 						</a>
 						<a
@@ -50,7 +50,7 @@ const MobileNavMenu = ({theme,open, setOpen}) => {
 							href="https://www.linkedin.com/in/juno-ogay-45a2512ba/?locale=en_US"
 						>
 							<IconButton sx={{'&:hover':{transform:'scale(1.3)'}}}>
-								<Avatar sx={{width:'40px', height:'40px'}} src="public/linkedin.png" />
+								<Avatar sx={{width:'40px', height:'40px'}} src="/linkedin.png" />
 							</IconButton>
 						</a>
 					</Box>
