@@ -3,8 +3,8 @@ import './ContactPage.css'
 
 const ContactPage = ({ theme }) => {
 	const handleContactClick = () => {
-		// Replace 'your.email@example.com' with your actual email address
-		window.open('mailto:your.email@example.com', '_blank');
+		
+		window.open('mailto:junjun.privated@gmail.com', '_blank');
 	};
 
 	return (
