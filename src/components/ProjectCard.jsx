@@ -14,7 +14,7 @@ const ProjectCard = ({ theme, project, index }) => {
 				display: 'flex',
 				flexDirection: { xs: 'column', md: 'row' },
 				width: '100%',
-				height: { xs: '700px', md: '650px' },
+				height: { xs: '800px', md: '650px' },
 				background:`linear-gradient(to top, ${theme.accentO}, ${theme.secondary}, ${theme.background})`,
 				borderRadius: '20px',
 				alignItems: 'center'
@@ -59,7 +59,7 @@ const ProjectCard = ({ theme, project, index }) => {
 				</Box>
 				<Typography
 					py={{ xs: 1, md: 2 }}
-					sx={{ width: '80%', textAlign: 'center', fontSize: '1.2rem', fontWeight: '600', color: theme.text }}
+					sx={{ width: '80%', textAlign: 'center', fontSize: '1.1rem', fontWeight: '600', color: theme.text, overflowY: 'auto' }}
 				>
 					{' '}
 					{project.tech}{' '}
@@ -68,18 +68,7 @@ const ProjectCard = ({ theme, project, index }) => {
 
 			<Box sx={{ width: { xs: '100%', md: '100%' }, height: { xs: '100%', md: '100%' }, position: 'relative' }}>
 				<Box sx={{ width: '100%', height: '100%', borderRadius: '20px' }}>
-				<Box
-        sx={{
-          position: 'absolute',
-          top: 0,
-          left: 0,
-          width: '100%',
-          height: '100%',
-          backgroundColor: 'rgba(0, 0, 0, 1)', 
-          borderRadius:'20px',
-          overflow: 'hidden',
-        }}
-      >
+				
 					<Avatar
 						variant="square"
 						src={project.img}
@@ -91,7 +80,7 @@ const ProjectCard = ({ theme, project, index }) => {
 							objectFit: 'cover'
 						}}
 					/>
-					</Box>
+					
 				</Box>
 			</Box>
 
