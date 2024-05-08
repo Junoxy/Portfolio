@@ -16,7 +16,7 @@ const ProjectsPage = ({ theme }) => {
 				marginTop: '200px'
 			}}
 		>
-			<Typography sx={{ fontSize: '36px', color: theme.accent }}>Projects</Typography>
+			<Typography sx={{ fontSize: '46px', color: theme.accent }}>Projects</Typography>
 			<ProjectsSlider theme={theme} projects={projects}/>
 		</Box>
 	);

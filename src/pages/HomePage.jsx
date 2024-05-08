@@ -37,7 +37,7 @@ const HomePage = ({theme}) => {
             </Box>
             
         </Box>
-            <Avatar className='home-img' src="/images/swaglord.jpg" alt="Juno" sx={{width: '600px', height: '600px', display:{xs:'none', md:'block'}}}/>
+            <Avatar className='home-img' src="/images/swaglord.jpg" alt="Juno" sx={{width: '500px', height: '500px', display:{xs:'none', md:'block'}}}/>
         </Box>
     )
 } 
