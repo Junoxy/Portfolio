@@ -13,7 +13,7 @@ const ProjectsPage = ({ theme }) => {
 				flexDirection: 'column',
 				gap: '50px',
 				alignItems: 'center',
-				marginTop: '200px'
+				my: '150px'
 			}}
 		>
 			<Typography sx={{ fontSize: '46px', color: theme.accent }}>Projects</Typography>

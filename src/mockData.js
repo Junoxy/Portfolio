@@ -35,7 +35,7 @@ export const projects = [
         demo: (null),
         name: 'Automatic Irrigation', 
         text: 'I am currently developing an auto-irrigation system using the MERN stack. This upcoming solution lets you control your gardens hydration for optimal plant growth. With detailed time series data and customizable settings, you will ensure your garden gets just the right amount of water. Plus, enjoy manual watering options and switch between sensor profiles for different areas of your garden. Stay tuned for updates on this convenient and efficient gardening tool!',
-        tech: 'React | Git | IoT | Html | Css | Botany Api | NodeJs | Express | MongoDB',
+        tech: 'React | Git | IoT | Botany Api | NodeJs | Express | MongoDB',
         img: '/aroid.webp',
     
     }
