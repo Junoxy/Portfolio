@@ -27,8 +27,8 @@ const ProjectsSlider = ({ projects, theme }) => {
             </Box>
           ))}
         </Box>
-        <IconButton className="arrow prev" onClick={prevSlide} sx={{color:theme.text,position: 'absolute', top: '50%',transform: 'translateY(-50%)',zIndex: '1', '&:hover':{color: theme.text}}}> <ArrowBack/> </IconButton>
-        <IconButton className="arrow next" onClick={nextSlide} sx={{color:theme.text,position: 'absolute', top: '50%',transform: 'translateY(-50%)',zIndex: '1', '&:hover':{color: theme.text}}}>  <ArrowForward/> </IconButton>
+        <IconButton className="arrow prev" onClick={prevSlide} sx={{color:theme.primary,position: 'absolute', top: '50%',transform: 'translateY(-50%)',zIndex: '1', '&:hover':{color: theme.text}}}> <ArrowBack sx={{width:'40px', height:'40px'}}/> </IconButton>
+        <IconButton className="arrow next" onClick={nextSlide} sx={{color:theme.primary,position: 'absolute', top: '50%',transform: 'translateY(-50%)',zIndex: '1', '&:hover':{color: theme.text}}}>  <ArrowForward sx={{width:'40px', height:'40px'}}/> </IconButton>
       </Box>
         )
 };

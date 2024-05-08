@@ -1,0 +1,19 @@
+@keyframes moveGradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.App {
+    width: 100vw;
+    height: 100vh;
+    animation: moveGradient 10s linear infinite; /* Adjust duration and timing function as needed */
+    background: linear-gradient(to right, #ff0000, #00ff00, #0000ff); /* Define the gradient colors */
+    background-size: 200% 200%; /* Ensure the background covers the entire element */
+}
