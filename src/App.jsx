@@ -8,6 +8,7 @@ import ProjectsPage from './pages/ProjectsPage';
 import ContactPage from './pages/ContactPage';
 import Footer from './components/Footer';
 import './App.css';
+import SocialProof from './pages/SocialProof';
 
 function App() {
 	const [theme, setTheme] = useState(lightTheme);
@@ -41,6 +42,7 @@ function App() {
 				<HomePage theme={theme} />
 				<AboutPage theme={theme} />
 				<ProjectsPage theme={theme} />
+				{/* <SocialProof theme={theme}/> */}
 				<ContactPage theme={theme} />
 			</Container>
 			<Footer theme={theme} />

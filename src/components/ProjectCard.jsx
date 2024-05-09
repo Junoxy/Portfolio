@@ -59,7 +59,7 @@ const ProjectCard = ({ theme, project, index }) => {
 				</Box>
 				<Typography
 					py={{ xs: 1, md: 2 }}
-					sx={{ width: '80%', textAlign: 'center', fontSize: '1.1rem', fontWeight: '600', color: theme.text, overflowY: 'auto' }}
+					sx={{ width: '80%', textAlign: 'center', fontSize: '1.1rem', fontWeight: '600', color: theme.text, overflowY: {xs:'auto', md:'hidden'} }}
 				>
 					{' '}
 					{project.tech}{' '}
