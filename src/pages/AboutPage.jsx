@@ -36,7 +36,7 @@ const AboutPage = ({ theme }) => {
 						width: '90%',
 						height: '100%',
 						p: '25px',
-						background: `linear-gradient(to top, ${theme.accentO}, ${theme.secondary}, ${theme.background})`,
+						
 						borderRadius: '20px'
 					}}
 				>
@@ -61,7 +61,7 @@ const AboutPage = ({ theme }) => {
 						width: '90%',
 						height: '100%',
 						p: '25px',
-						background: `linear-gradient(to top, ${theme.accentO}, ${theme.secondary}, ${theme.background})`,
+						
 						borderRadius: '20px'
 					}}
 				>
