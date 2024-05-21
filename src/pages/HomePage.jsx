@@ -66,7 +66,7 @@ const HomePage = ({ theme }) => {
 
 					<Box sx={{ display: 'flex', gap: '16px' }}>
 						<Button
-                        className='home-button1'
+                        className='home-button'
 							onClick={() => scrollToSection('projects')}
 							sx={{
 								paddingLeft: '0px',
@@ -80,7 +80,7 @@ const HomePage = ({ theme }) => {
 							Projects
 						</Button>
 						<Button
-                             className='home-button2'
+                            className='home-button2'
 							variant="outlined"
 							onClick={() => handleContactClick()}
 							sx={{

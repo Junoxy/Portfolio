@@ -23,7 +23,7 @@ export const projects = [
         name: 'Password Generator',
         text: 'I have crafted a powerful password generator application using JavaScript (ES6) and HTML. This user-friendly app offers a range of functionalities tailored to the users needs. Users can easily generate passwords according to their preferences, copy them to the clipboard for convenience, and evaluate the strength of the generated passwords. With a focus on simplicity and functionality, this app provides users with a reliable tool for creating secure passwords.',
         tech: 'JavaScript | ES6 | Html | Css | Git',
-        img: '/passgen.png',
+        img: 'public/passgen.png',
         
     },
     {
@@ -41,7 +41,7 @@ export const projects = [
         name: 'Automatic Irrigation', 
         text: 'I am currently developing an auto-irrigation system using the MERN stack. This upcoming solution lets you control your gardens hydration for optimal plant growth. With detailed time series data and customizable settings, you will ensure your garden gets just the right amount of water. Plus, enjoy manual watering options and switch between sensor profiles for different areas of your garden. Stay tuned for updates on this convenient and efficient gardening tool!',
         tech: 'React | Git | IoT | Botany Api | NodeJs | Express | MongoDB',
-        img: '/autoirrigate.png',
+        img: 'public/autoirrigate.png',
     
     }
 ]
