@@ -48,7 +48,7 @@ const HomePage = ({ theme }) => {
 				<Box className="home-img">
 					<Avatar
 						variant="circle"
-						src="/images/swaglordNoBG.png"
+						src="/swaglordNoBG.png"
 						sx={{ width: { xs: '333px', md: '400px' }, height: { xs: '333px', md: '400px' } }}
 					></Avatar>
 				</Box>
