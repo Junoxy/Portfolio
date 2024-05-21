@@ -1,6 +1,6 @@
-import { Box, Divider, Typography } from '@mui/material';
+import { Avatar, Box, Divider, Typography } from '@mui/material';
 import React from 'react';
-import ProjectsSlider from '../components/ProjectsSlider';
+import ProjectCard from '../components/ProjectCard';
 import { projects } from '../mockData';
 
 const ProjectsPage = ({ theme }) => {
@@ -9,15 +9,20 @@ const ProjectsPage = ({ theme }) => {
 		<Box id='projects'
 			sx={{
 				width: '100%',
+				height:'100%',
 				display: 'flex',
 				flexDirection: 'column',
-				gap: '50px',
-				alignItems: 'center',
-				my: '150px'
+				gap: '80px',
+				alignItems: 'center'
 			}}
 		>
-			<Typography sx={{ fontSize: '46px', color: theme.accent }}>Projects</Typography>
-			<ProjectsSlider theme={theme} projects={projects}/>
+			<Typography sx={{ fontSize: '46px', color: theme.text,
+				paddingTop:'100px'}}>Projects</Typography>
+			{projects.map((project, index) => (
+            <Box key={index} className={'slide'}>
+              <ProjectCard theme={theme} project={project} index={index}/>
+            </Box>
+          ))}
 		</Box>
 	);
 };

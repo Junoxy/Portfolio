@@ -1,6 +1,6 @@
-@keyframes slideInFromBottom {
+@keyframes slideInFromLeft {
     0% {
-        transform: translateY(100%);
+        transform: translateX(-50vw);
         opacity: 0;
     }
     100% {
@@ -8,9 +8,9 @@
         opacity: 1;
     }
 }
-@keyframes slideInFromLeft {
+@keyframes slideInFromRight {
     0% {
-        transform: translateX(-50vw);
+        transform: translateX(50vw);
         opacity: 0;
     }
     100% {
@@ -19,34 +19,27 @@
     }
 }
 
+
 .home-img {
-    animation: slideInFromBottom 1.5s ease-in-out;
+    animation: slideInFromLeft 2s ease-in-out;
 }
 
 .home-text1 {
-    animation: slideInFromLeft 1.5s ease-in-out forwards; 
+    animation: slideInFromRight 1.5s ease-in-out forwards; 
 }
 .home-text2 {
-    animation: slideInFromLeft 2s ease-in-out forwards; 
+    animation: slideInFromRight 2s ease-in-out forwards; 
 }
-.home-text3 {
-    animation: slideInFromLeft 2.5s ease-in-out forwards; 
+.home-button {
+    animation: slideInFromRight 2.5s ease-in-out forwards; 
 }
-.home-text4 {
-    animation: slideInFromLeft 3s ease-in-out forwards; 
+.home-button2 {
+    animation: slideInFromRight 3s ease-in-out forwards; 
 }
 
 .home-divider {
-    animation: slideInFromLeft 2s ease-in-out forwards; 
+    animation: slideInFromRight 3s ease-in-out forwards; 
 }
 
-.contact-button-home {
-    transition: 0.3s ease;
-    animation: slideInFromBottom 1.5s ease-in-out forwards ;
-}
-.contact-button-home:hover {
-    transform: scale(1.1);
-    cursor: pointer;
-    box-shadow: 0px 0px 5px 5px #ffffff;
-}
+
 

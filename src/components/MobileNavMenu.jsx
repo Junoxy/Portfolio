@@ -15,8 +15,8 @@ const MobileNavMenu = ({theme,open, setOpen}) => {
 	}
     return (
         <Slide  direction="left" in={open} mountOnEnter unmountOnExit>
-            <Box sx={{ width: '100vw', height: '130vh', background: `linear-gradient(to bottom, ${theme.accent}, ${theme.secondary})`, position: 'absolute', top: '0', zIndex: 100 }}>
-                <Box sx={{display:'flex', justifyContent:'flex-end'}}>
+            <Box sx={{ width: '100vw', height: '130vh', background: `linear-gradient(to bottom, ${theme.accent}, ${theme.secondary}, ${theme.background})`, position: 'absolute', top: '0', zIndex: 100 }}>
+                <Box sx={{display:'flex', justifyContent:'flex-end', zIndex:'2000'}}>
                 <IconButton sx={{ color: '#ffffff', p:'20px' }} onClick={() => setOpen(!open)}>
                     <KeyboardArrowDownIcon sx={{ width: '46px', height: '46px' }} />
                 </IconButton>

@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import NavBar from './components/NavBar';
 import { Box, Container } from '@mui/material';
 import { lightTheme, darkTheme } from './theme/theme';
@@ -9,15 +9,32 @@ import ContactPage from './pages/ContactPage';
 import Footer from './components/Footer';
 import './App.css';
 import SocialProof from './pages/SocialProof';
+import Links from './components/Links';
+
 
 function App() {
 	const [theme, setTheme] = useState(lightTheme);
-
+	const [screen, setScreen] = useState(null)
+	const checkScreen = () => {
+		if (window.innerWidth < 768) {
+			setScreen('mobile')
+		} else {
+			setScreen('desktop')
+		}
+	}
+	useEffect(() => {
+        checkScreen(); 
+        window.addEventListener('resize', checkScreen); 
+        return () => {
+            window.removeEventListener('resize', checkScreen); 
+        };
+    }, []);
 	return (
 		<Box
 			className="App"
 			sx={{
-				background: `linear-gradient(to right, ${theme.accentO}, ${theme.secondary}, ${theme.background})`,
+				zIndex:'-10',
+				background: `linear-gradient(to right, ${theme.accentO}, ${theme.secondary}, ${theme.background2})`,
 				backgroundSize: '300% 300%' ,
 				animation: 'pingpong 15s ease-in-out infinite alternate' ,
 				'@keyframes pingpong': {
@@ -45,7 +62,9 @@ function App() {
 				{/* <SocialProof theme={theme}/> */}
 				<ContactPage theme={theme} />
 			</Container>
+			{screen === 'desktop' && <Links theme={theme}/>}
 			<Footer theme={theme} />
+			
 		</Box>
 	);
 }

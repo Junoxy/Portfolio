@@ -41,7 +41,7 @@ const Footer = ({ theme }) => {
 					</Box>
 				</Box>
 				<Box>
-					<Typography sx={{ fontSize: '18px', color: theme.accent, fontWeight: '400', paddingBottom: '5px' }}>
+					<Typography sx={{ fontSize: '18px', color: theme.text, fontWeight: '400', paddingBottom: '5px' }}>
 						Navigate
 					</Typography>
 					<Box sx={{ display: 'flex', gap: '3px', flexDirection: 'column' }}>
@@ -53,7 +53,7 @@ const Footer = ({ theme }) => {
 					</Box>
 				</Box>
 				<Box>
-					<Typography sx={{ fontSize: '18px', color: theme.accent, fontWeight: '400', paddingBottom: '5px' }}>
+					<Typography sx={{ fontSize: '18px', color: theme.text, fontWeight: '400', paddingBottom: '5px' }}>
 						Contact
 					</Typography>
 					<Box sx={{ display: 'flex', gap: '3px', flexDirection: 'column' }}>
@@ -66,7 +66,7 @@ const Footer = ({ theme }) => {
 				</Box>
 			</Box>
 
-			<Typography sx={{ fontSize: '12px', paddingTop: '25px', color: theme.text }}>© 2024 - Juno Ogay</Typography>
+			<Typography sx={{ fontSize: '12px', paddingTop: '25px', color: theme.text }}>© 2024 - Adrian Juno Ogay</Typography>
 		</Box>
 	);
 };
