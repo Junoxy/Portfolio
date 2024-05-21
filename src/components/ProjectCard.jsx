@@ -21,8 +21,8 @@ const ProjectCard = ({ theme, project, index }) => {
 			sx={{
 				display: 'flex',
 				flexDirection: { xs: 'column', md: 'row' },
-				width: '100%',
-				height: { xs: 'auto', md: '450px' },
+				width: '90%',
+				height: { xs: 'auto', md: '400px' },
 				bgcolor:theme.secondary,
 				borderRadius: '20px',
 				alignItems: 'center',
@@ -59,10 +59,10 @@ const ProjectCard = ({ theme, project, index }) => {
 					>
 						{project.name}
 					</Typography>
-					<Divider sx={{width:'100%', bgcolor:theme.text}}/>
+					
 					<Typography
 						
-						sx={{ textAlign: 'center', overflowY: 'auto', color: theme.text, fontSize: '1rem', paddingTop:{xs:'16px',md:'0px'} }}
+						sx={{ textAlign: 'center', overflowY: 'auto', color: theme.text, fontSize: '0.9rem', paddingTop:{xs:'16px',md:'0px'} }}
 					>
 						{project.text}
 					</Typography>

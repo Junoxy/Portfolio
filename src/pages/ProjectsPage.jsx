@@ -16,10 +16,10 @@ const ProjectsPage = ({ theme }) => {
 				alignItems: 'center'
 			}}
 		>
-			<Typography sx={{ fontSize: '46px', color: theme.text,
+			<Typography sx={{ fontSize: '2rem', color: theme.text,
 				paddingTop:'100px'}}>Projects</Typography>
 			{projects.map((project, index) => (
-            <Box key={index} className={'slide'}>
+            <Box key={index} className={'slide'} sx={{display:'flex', justifyContent:'center'}}>
               <ProjectCard theme={theme} project={project} index={index}/>
             </Box>
           ))}

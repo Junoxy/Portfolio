@@ -23,9 +23,9 @@ const HomePage = ({ theme }) => {
 			id="home"
 			ref={homeRef}
 			sx={{
-				height: {xs:'100%', md:'calc(100vh + 67px)'},
+				height: { xs: '100%', md: 'calc(100vh + 90px)' },
 				width: '100%',
-                paddingTop:{xs:'70px', md:'0px'},
+				paddingTop: { xs: '70px', md: '0px' },
 				display: 'flex',
 				flexDirection: 'column',
 				justifyContent: 'center',
@@ -35,30 +35,33 @@ const HomePage = ({ theme }) => {
 				transition: 'opacity 1.5s'
 			}}
 		>
-			<Box sx={{
-				
-				width: '100%',
-				display: 'flex',
-				flexDirection: { xs: 'column', md: 'row' },
-				justifyContent: 'center',
-				alignItems: 'center',
-				gap: '30px',
-                
-			}}>
-				<Box className='home-img'>
+			<Box
+				sx={{
+					width: '100%',
+					display: 'flex',
+					flexDirection: { xs: 'column', md: 'row' },
+					justifyContent: 'center',
+					alignItems: 'center',
+					gap: '30px'
+				}}
+			>
+				<Box className="home-img">
 					<Avatar
 						variant="circle"
 						src="/images/swaglordNoBG.png"
-						sx={{ width: { xs: '333px', md: '500px' }, height: { xs: '333px', md: '500px' }}}
+						sx={{ width: { xs: '233px', md: '400px' }, height: { xs: '233px', md: '400px' } }}
 					></Avatar>
 				</Box>
 
 				<Box sx={{ width: '100%' }}>
-					<Typography className='home-text1' sx={{ fontSize: { xs: '2rem', md: '2.5rem' }, color: theme.text, my: '8px' }}>
+					<Typography
+						className="home-text1"
+						sx={{ fontSize: { xs: '1.5rem', md: '2rem' }, color: theme.text, my: '8px' }}
+					>
 						Adrian Ogay | Software Developer
 					</Typography>
-					<Divider className='home-divider' sx={{ bgcolor: theme.text }} />
-					<Typography className='home-text2' sx={{ fontSize: '1.3rem', my: '16px', color: theme.text }}>
+					<Divider className="home-divider" sx={{ bgcolor: theme.text }} />
+					<Typography className="home-text2" sx={{ fontSize: '1rem', my: '16px', color: theme.text }}>
 						Chef turned developer with a drive to create, whether its Art, Food, Applications or Systems! On
 						a mission to continuously expand my skillset and learn, Join me on my journey into the world of
 						Tech and lets see how we can help each other.
@@ -66,12 +69,12 @@ const HomePage = ({ theme }) => {
 
 					<Box sx={{ display: 'flex', gap: '16px' }}>
 						<Button
-                        className='home-button'
+							className="home-button"
 							onClick={() => scrollToSection('projects')}
 							sx={{
 								paddingLeft: '0px',
-								width: '200px',
-								height: '50px',
+								width: '175px',
+								height: '40px',
 								bgcolor: theme.text,
 								color: theme.text2,
 								'&:hover': { border: `2px solid ${theme.text}`, color: theme.text }
@@ -80,12 +83,12 @@ const HomePage = ({ theme }) => {
 							Projects
 						</Button>
 						<Button
-                            className='home-button2'
+							className="home-button2"
 							variant="outlined"
 							onClick={() => handleContactClick()}
 							sx={{
-								width: '200px',
-								height: '50px',
+								width: '175px',
+								height: '40px',
 								color: theme.text,
 								borderColor: theme.text,
 								'&:hover': { bgcolor: theme.accentO, borderColor: theme.text }
@@ -94,11 +97,18 @@ const HomePage = ({ theme }) => {
 							Get in touch
 						</Button>
 					</Box>
-                    
 				</Box>
-                
 			</Box>
-            <Box sx={{ width: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '15px', py: {xs:'50px', md:'0px'} }}>
+			<Box
+				sx={{
+					width: '100%',
+					display: 'flex',
+					flexDirection: 'column',
+					alignItems: 'center',
+					gap: '15px',
+					py: { xs: '50px', md: '0px' }
+				}}
+			>
 				<Typography sx={{ fontSize: '26px', color: theme.text }}>My Stack</Typography>
 
 				<Box
@@ -203,7 +213,7 @@ const HomePage = ({ theme }) => {
 						}}
 						src="/react.png"
 					/>
-                    <Avatar
+					<Avatar
 						variant="square"
 						sx={{
 							width: '55px',
@@ -217,7 +227,7 @@ const HomePage = ({ theme }) => {
 				</Box>
 				<Divider sx={{ width: '100%', bgcolor: theme.text }} />
 			</Box>
-            <Box sx={{}}></Box>
+			<Box sx={{}}></Box>
 		</Box>
 	);
 };
