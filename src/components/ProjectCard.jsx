@@ -46,7 +46,7 @@ const ProjectCard = ({ theme, project, index }) => {
 				<Box
 					sx={{
 						width: { xs: '90%', md: '80%' },
-						height: { xs: '65%', md: '100%' },
+						height: { xs: '85%', md: '100%' },
 						display: 'flex',
 						flexDirection: 'column',
 						alignItems: 'center',

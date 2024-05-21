@@ -57,7 +57,7 @@ const AboutPage = ({ theme }) => {
 						</Typography>
 					</Box>
 				</Box>
-				<Box sx={{width:'50%', height:'auto'}}>
+				<Box sx={{width:{xs:'100%',md:'50%'}, height:'auto'}}>
 					<Lottie animationData={animationPlants} />
 				</Box>
 			</Box>
@@ -71,7 +71,7 @@ const AboutPage = ({ theme }) => {
 					
 				}}
 			>
-				<Box sx={{width:'50%', height:'auto'}}>
+				<Box sx={{width:{xs:'100%',md:'50%'}, height:'auto'}}>
 					<Lottie animationData={animationWater} />
 				</Box>
 				<Box
