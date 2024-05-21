@@ -37,8 +37,8 @@ export const projects = [
     },
     {
         github: 'https://github.com/Junoxy/AutoIrrigation' ,
-        demo: (null),
-        name: 'Automatic Irrigation', 
+        demo: 'https://github.com/Junoxy/AutoIrrigation',
+        name: '(In development) Automatic Irrigation', 
         text: 'I am currently developing an auto-irrigation system using the MERN stack. This upcoming solution lets you control your gardens hydration for optimal plant growth. With detailed time series data and customizable settings, you will ensure your garden gets just the right amount of water. Plus, enjoy manual watering options and switch between sensor profiles for different areas of your garden. Stay tuned for updates on this convenient and efficient gardening tool!',
         tech: 'React | Git | IoT | Botany Api | NodeJs | Express | MongoDB',
         img: '/autoirrigate.png',

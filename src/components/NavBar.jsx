@@ -46,15 +46,12 @@ const NavBar = ({ theme, setTheme }) => {
 				position: 'fixed',
 				width: '100%',
 				height: '70px',
-				zIndex: 100,
 				top: 0,
 				transition: 'top 0.3s',
 				...(visible ? { top: 0 } : { top: -100 }),
 				zIndex: '2000',
-
 				display: 'flex',
 				alignItems: 'center',
-
 				justifyContent: 'center'
 			}}
 		>

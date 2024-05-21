@@ -5,6 +5,7 @@ import React from 'react';
 import Lottie from 'lottie-react';
 import animationPlants from '../assets/plants.json';
 import animationWater from '../assets/watering.json';
+import { Padding } from '@mui/icons-material';
 
 const AboutPage = ({ theme }) => {
 	const aboutTextRef = useRef(null);
@@ -65,7 +66,9 @@ const AboutPage = ({ theme }) => {
 				sx={{
 					display: 'flex',
 					width: '100%',
-					flexDirection: { xs: 'column', md: 'row', alignItems: 'center' }
+					flexDirection: { xs: 'column', md: 'row', alignItems: 'center' },
+					marginTop:{xs:'0px',md:'-50px'},
+					
 				}}
 			>
 				<Box sx={{width:'50%', height:'auto'}}>
@@ -76,7 +79,8 @@ const AboutPage = ({ theme }) => {
 						display: 'flex',
 						flexDirection: 'column',
 						width: { xs: '100%', md: '100%' },
-						textAlign: { xs: 'center', md: 'left' }
+						textAlign: { xs: 'center', md: 'left' },
+						
 					}}
 				>
 					<Typography sx={{ fontSize: '2rem', color: theme.text }}>My Goal</Typography>
@@ -88,8 +92,11 @@ const AboutPage = ({ theme }) => {
 						support each other as we work towards our goals and aspirations, navigating life's journey
 						together!
 					</Typography>
+					
 				</Box>
+				
 			</Box>
+			
 		</Box>
 	);
 };

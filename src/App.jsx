@@ -34,7 +34,7 @@ function App() {
 			className="App"
 			sx={{
 				zIndex:'-10',
-				background: `linear-gradient(to right, ${theme.accentO}, ${theme.secondary}, ${theme.background2})`,
+				background: `linear-gradient(to right, ${theme.background}, ${theme.secondary}, ${theme.background2})`,
 				backgroundSize: '300% 300%' ,
 				animation: 'pingpong 15s ease-in-out infinite alternate' ,
 				'@keyframes pingpong': {
